@@ -455,3 +455,110 @@ console.log(myHighest); */
 }
 const price=ticketPrice(300);
 console.log(price); */
+
+/* // 1.string type variable 
+let name = 'Rafin';
+// 2. boolean type variable 
+let isMarried=false;
+// 3.number type variable 
+let age=24; */
+
+// number 2.......
+
+// let  ages =[24, 25, 22];
+// const names = ['Asif', 'Arif', 'Amin', 'Goltu'];
+// ages[1]=36;
+// console.log(ages);
+// names[1]='Rafin';
+// console.log(names);
+
+// var num1=500;
+// var num2=100;
+// var totalNumber=num1+num2;
+// var totalNumber=num1*num2
+// console.log(totalNumber);
+
+// let number=7;
+// while(number<=19){
+// console.log(number);
+// number=number+2;
+// }
+
+// const names = ['Asif', 'Arif', 'Amin', 'Goltu'];
+
+// for(let i=0; i<names.length; i++){
+//   console.log(names[i]);
+// }
+// let numbers =[50, 70, 90, 95, 105, 56, 64, 66];
+// for(let i=0; i<numbers.length; i++){
+//   const element=numbers[i];
+//   if(element>80){
+//     console.log(element);
+//   }
+// }
+
+// 
+// let mobile={
+//   mobileName:'Samsung',
+//   Price:19500,
+//   color:'Black',
+//   madeIn:'Bangladesh'
+// }
+// mobile.Price="20000";
+// console.log(mobile)
+
+
+
+
+// modiule 22.5: problem 1:
+/* function  feetToInch(feet){
+  const inches= feet*12;
+  return inches;
+}
+let givenfeet=15;
+let outputInches=feetToInch(givenfeet);
+console.log(outputInches); */
+
+// modiule 22.5: Problem 2:
+
+// function  centimeterToMeter(centimeter){
+//   const meter= centimeter/100;
+//   return meter;
+// }
+// let givencentimeter=300;
+// let outputMeter=centimeterToMeter(givencentimeter);
+// console.log(outputMeter);
+
+
+// modiule 22.5: Problem 3:
+/* function  paperRequirements(firstbookQuantity,secondbookQuantity, thirdBookQuantity){
+    let firstbook=100;
+    let secondbook=200;
+    let thirdbook=300;
+  
+    let firstbookPage=firstbookQuantity * firstbook;
+    let secondbookPage=secondbookQuantity * secondbook;
+    let thirdbookPage=thirdBookQuantity * thirdbook;
+    let totalbookpage=firstbookPage+ secondbookPage+thirdbookPage;
+    return totalbookpage;
+
+
+}
+let bookQuantity= paperRequirements(5, 6, 8);
+console.log(bookQuantity); */
+
+
+// modiule 22.5: Problem 4:
+/* function bestFriend(names){
+  let bigName=names[0];
+  for(let i=0; i<names.length; i++){
+    const name= names[i];
+    if(name.length>bigName.length){
+      bigName=name;
+    }
+  }
+  return bigName;
+}
+let names=['Hasem', 'kashem', 'Joshim', 'Rohim', 'BorhanUddin', 'ShohagHossain'];
+let biggestName=bestFriend(names);
+console.log(biggestName); */
